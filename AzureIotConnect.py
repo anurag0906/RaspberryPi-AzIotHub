@@ -11,7 +11,7 @@ from azure.iot.device.aio import IoTHubDeviceClient
 async def main():
 
     # connection string
-    conn_str = "HostName=surveillance-pi.azure-devices.net;DeviceId=Rasp-pi-device01;SharedAccessKey=Xc48DrtVlFUTyGLRcmtfwQ1Jxhvj7JzjATkPV7PTxQY="
+    conn_str = "HostName=XXXXXXXX;DeviceId=Rasp-pi-XXXXX;SharedAccessKey=ZZZZZXXXXXXXXXXYYYYYYYaaaabbbbcccc"
 
     # Create instance of the device client using the ashagun provider
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
